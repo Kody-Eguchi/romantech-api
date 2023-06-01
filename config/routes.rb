@@ -5,4 +5,5 @@ Rails.application.routes.draw do
                registrations: 'users/registrations'
              }
   get '/member-data', to: 'members#show'
+  get '/generate', to: 'openai#generate_text'
 end

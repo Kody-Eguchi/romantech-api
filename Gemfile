@@ -43,3 +43,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 gem 'devise-jwt'
 gem 'fast_jsonapi'
+
+gem "ruby-openai"
+gem 'dotenv-rails', groups: [:development, :test]
