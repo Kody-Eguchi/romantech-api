@@ -41,3 +41,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # ADDED GEMS
 gem 'devise'
+gem 'devise-jwt'
+gem 'fast_jsonapi'
